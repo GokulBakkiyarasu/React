@@ -1,0 +1,16 @@
+.secondary-bar {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.secondary-bar a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  text-decoration: none;
+  color: white;
+}

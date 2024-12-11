@@ -1,0 +1,32 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 1600px) {
+  .products {
+    justify-content: left;
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .products {
+    justify-content: left;
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 720px) {
+  .products {
+    justify-content: left;
+  }
+}
+
+@media (max-width: 562px) {
+  .products {
+    justify-content: center;
+    margin-left: 0px;
+  }
+}

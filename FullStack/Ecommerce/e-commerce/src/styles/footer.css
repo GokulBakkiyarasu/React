@@ -1,0 +1,46 @@
+.footer-top {
+  height: 200px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-bottom {
+  height: 40px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-bottom p {
+  color: black;
+}
+
+.footer .store-location {
+  width: 15%;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+.social-media a {
+  margin-right: 20px;
+}
+
+.social-media a,
+.shop a,
+.customer-support a,
+.policy a {
+  text-decoration: none;
+  color: black;
+}
+
+.shop,
+.customer-support,
+.policy {
+  display: flex;
+  flex-direction: column;
+}

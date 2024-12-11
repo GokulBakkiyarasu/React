@@ -1,0 +1,14 @@
+.login-container {
+  display: flex;
+  align-items: center;
+}
+
+.login-container a {
+  margin-left: 5px;
+}
+
+.login-container a {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}

@@ -1,0 +1,4 @@
+.specific-products-content {
+  display: flex;
+  flex-wrap: wrap;
+}

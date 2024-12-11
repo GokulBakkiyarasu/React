@@ -1,0 +1,39 @@
+.browser {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.browser hr {
+  border: none;
+  height: 2px;
+  background-color: #000;
+  width: 100%;
+  margin: 3px 0;
+}
+
+.browser a {
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+}
+
+.filter h2 {
+  margin-left: -25px;
+  margin-top: 10px;
+}
+
+.filter p {
+  margin-bottom: 0px;
+}
+
+.range {
+  display: flex;
+  justify-content: space-between;
+}

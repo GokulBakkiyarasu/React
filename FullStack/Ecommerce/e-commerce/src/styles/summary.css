@@ -1,0 +1,53 @@
+.summary {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.product-summary {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.left-summary-section h3 {
+  display: inline;
+}
+
+.product-info,
+.subtotal,
+.total {
+  display: flex;
+}
+
+.prod-info {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.prod-info p {
+  color: black;
+}
+
+.prod-quant {
+  margin-top: 20px;
+  display: flex;
+}
+
+.prod-quant input {
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.subtotal,
+.total {
+  justify-content: space-between;
+}
+
+.place-order {
+  width: 200px;
+}

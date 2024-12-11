@@ -1,0 +1,90 @@
+.single-item-content {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.product-content {
+  display: flex;
+}
+
+.quantity p {
+  display: inline;
+  margin-right: 10px;
+}
+
+.quantity input {
+  width: 50px;
+}
+
+.cart-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.buy-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  width: 112px;
+}
+
+.info {
+  display: inline-flex;
+}
+
+.info h3 {
+  margin-bottom: 0px;
+}
+
+.right-prod-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.product-name {
+  display: inline;
+}
+
+.reviews {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-sec h1 {
+  margin-bottom: 0px;
+}
+
+.right-sec select {
+  border: 0px;
+  background-color: #f5efff;
+  color: black;
+  font-size: 20px;
+  margin-top: 80px;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  border: none;
+}
+
+.comment h5 {
+  margin: 0px;
+}
